@@ -53,6 +53,7 @@ Sentiment mapping: Positive → 1, Negative → -1, Neutral → 0
 
 All prompts were input in isolated sessions to prevent memory carryover
 
+
 📌 Limitations
 
 Small sample size (12 prompts)
@@ -61,11 +62,13 @@ Only one AI model tested (GPT-4o)
 
 Sentiment model may not capture nuance or sarcasm
 
+
 ✍️ Author
 
 [Naman Tripathi] – AI researcher and student
 
 GitHub: Naman-research
+
 
 📄 License
 
