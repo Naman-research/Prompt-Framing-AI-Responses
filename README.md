@@ -48,21 +48,27 @@ python analysis/sentiment_analysis.py
 ✅ Notes
 
 Connotation scores: +1 (positive), 0 (neutral), -1 (negative)
+
 Sentiment mapping: Positive → 1, Negative → -1, Neutral → 0
+
 All prompts were input in isolated sessions to prevent memory carryover
 
 📌 Limitations
 
 Small sample size (12 prompts)
+
 Only one AI model tested (GPT-4o)
+
 Sentiment model may not capture nuance or sarcasm
 
 ✍️ Author
 
 [Naman Tripathi] – AI researcher and student
+
 GitHub: Naman-research
 
 📄 License
 
 This project is released under the MIT License. Feel free to use, adapt, and share with attribution.
+
 If you use or build upon this project, consider citing or referencing it!
