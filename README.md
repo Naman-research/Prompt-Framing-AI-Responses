@@ -51,10 +51,7 @@ Connotation scores: +1 (positive), 0 (neutral), -1 (negative)
 Sentiment mapping: Positive → 1, Negative → -1, Neutral → 0
 
 All prompts were input in isolated sessions to prevent memory carryover
-```markdown
-```bash
-cd myfolder
-
+\\\
 📌 Limitations
 Small sample size (12 prompts)
 
