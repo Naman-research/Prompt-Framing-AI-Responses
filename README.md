@@ -15,15 +15,12 @@ We used 12 prompts covering 4 social/political issues (capitalism, immigration, 
 
 Prompt-Framing-AI-Responses/
 ├── data/
-│ ├── #001.txt, #002.txt, ... # Raw AI-generated responses
-│ └── .gitkeep # Keeps folder tracked
+│   ├── #001.txt, #002.txt, ...        # Raw AI-generated responses
+│   └── .gitkeep                       # Keeps folder tracked
 ├── analysis/
-│ ├── sentiment_analysis.py # Python script for sentiment scoring
-│ └── .gitkeep # Placeholder file
-├── figures/ (optional)
-│ └── graphs or charts # Visuals (if added)
-├── README.md # This file
-
+│   ├── sentiment_analysis.py          # Python script for sentiment scoring
+│   └── .gitkeep                       # Placeholder file
+├── README.md                          # This file
 ## Folder Structure
 
 - `data/`: Contains AI-generated responses in `.txt` format. Each file (e.g., `001.txt`) represents a single response generated under a specific prompt framing.
@@ -54,6 +51,9 @@ Connotation scores: +1 (positive), 0 (neutral), -1 (negative)
 Sentiment mapping: Positive → 1, Negative → -1, Neutral → 0
 
 All prompts were input in isolated sessions to prevent memory carryover
+```bash
+cd your-folder-name
+python sentiment_analysis.py
 
 📌 Limitations
 Small sample size (12 prompts)
